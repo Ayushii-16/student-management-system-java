@@ -8,6 +8,9 @@ public class index{
             stud.loadFromFile();
           stud.addStudents();  
            stud.removeStudents();
+        stud.searchStudent();
+        stud.updateStudent();
+        stud.saveToFile();
            stud.show();
     }
 }

@@ -63,6 +63,36 @@ class studentmanager {
       }
        }
 
+       public void searchStudent(){
+          System.out.println("Enter roll number of student for searching : ");
+          int n = s.nextInt();
+          boolean found = false;
+          for(student x : stud){
+               if(x.rollNumber == n){
+                    System.out.println("Student is : " + x.name);
+                    found = true;
+                  break;
+               }    
+          }
+              if(found == false)  System.out.println("Student not found");
+          }
+
+           public void updateStudent(){
+          System.out.println("Enter roll number of student for updating : ");
+          int n = s.nextInt();
+          boolean found = false;
+          for(student x : stud){
+               if(x.rollNumber == n){
+                    System.out.println("Enter new marks of : " + x.name);
+                    int m = s.nextInt();
+                    x.marks = m;
+                    found = true;
+                  break;
+               }    
+          }
+              if(found == false)  System.out.println("Student not found");
+          }
+
      public void show(){
         int sum = 0;
         if(stud.size()==0) System.out.println("no students found");

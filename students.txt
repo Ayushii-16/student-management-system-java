@@ -1,2 +1,5 @@
-Aryan , 1 , 7
-Nisha , 2 , 98
+Kartik , 3 , 76
+Trisha , 4 , 64
+Ashwin , 5 , 86
+Ram , 6 , 49
+Tanu , 7 , 75
