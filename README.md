@@ -19,6 +19,7 @@ Java | OOPs | ArrayList | FileWriter | BufferedReader
 javac *.java
 java index
 ```
+
 ## Planned Features
 - Spring Boot REST API conversion
 - Database integration (MySQL/PostgreSQL)
