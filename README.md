@@ -2,17 +2,23 @@
 
 **Status:** In Progress
 
-## Description
-This is a student management system built entirely in Java. It currently supports adding students, calculating averages, removing students, saving to a file, and loading from a file. 
+A CLI-based student management application built in Java.
 
-## Current Functionality
-- Add student records
-- Calculate average marks
-- Remove students (in memory)
-- Save records to a file
-- Load records from a file
+## Features
+- Add student records (name, roll number, marks)
+- View all students with pass/fail result and average marks
+- Search student by roll number
+- Update student marks
+- Delete student by roll number
+- Persistent storage — data saved and loaded from file
 
+## Tech Stack
+Java | OOPs | ArrayList | FileWriter | BufferedReader
+
+## How to Run
+javac *.java
+java index
+```
 ## Planned Features
-- Remove students from the file
-- Search students by criteria
-- Update student details
+- Spring Boot REST API conversion
+- Database integration (MySQL/PostgreSQL)
